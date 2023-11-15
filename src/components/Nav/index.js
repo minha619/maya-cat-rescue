@@ -1,21 +1,18 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Nav() {
     return (
         <header>
-            {/* <nav>
-                <ul className="flex-row">
-                    <li className="mx-5">
-                        <Link to='portfolio/'>MH</Link>
-                    </li>
-                    <li className="mx-2">
-                        <Link to='/about'>About Me</Link>
-                    </li>
-                    <li className="mx-2">
-                        <Link to='/projects'>Projects</Link>
-                    </li>
+            <nav>
+                <div>
+                    <img src={require(`../../assets/img/maya-logo.pngç`)} alt="logo"/>
+                </div>
+               <ul>
+                    <li> <Link to='home/'> HOME </Link> </li>
+                    <li> <Link to='about/'> ABOUT US </Link> </li>
+                    <li> <Link to='about/'> ADOPT </Link> </li>
                 </ul>
-            </nav> */}
+            </nav>
         </header>
 
     );
