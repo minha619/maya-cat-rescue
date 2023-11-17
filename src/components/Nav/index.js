@@ -8,11 +8,13 @@ function Nav() {
                     <div className="px-4 py-4">
                         <img className="w-48" src={require(`../../assets/img/maya-logo.png`)} alt="logo" />
                     </div>
-                    <ul className="text-orange-300 flex flex-row">
-                        <li className="px-4 py-4"> <Link to='home/'> HOME </Link> </li>
-                        <li className="px-4 py-4"> <Link to='about/'> ABOUT US </Link> </li>
-                        <li className="px-4 py-4"> <Link to='about/'> ADOPT </Link> </li>
-                    </ul>
+                    <div className="text-[#FAAF3B] px-4 flex items-end">
+                        <ul className="flex flex-row text-lg font-sans font-bold" >
+                            <li className="px-4 py-2.5"> <Link to='home/'> HOME </Link> </li>
+                            <li className="px-4 py-2.5"> <Link to='about/'> ABOUT US </Link> </li>
+                            <li className="px-4 py-2.5"> <Link to='about/'> ADOPT </Link> </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </header>
