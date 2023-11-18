@@ -11,13 +11,13 @@ function Nav() {
                             <Link to='home/'> <img className="w-40" src={require(`../../assets/img/maya-logo.png`)} alt="logo" /> </Link>
                         </button>
                     </div>
-                    <div className="text-bgyellow px-4 flex items-end">
-                        <div className="flex flex-row text-lg font-sans font-bold " >
-                            <button className="px-4 py-4 hover:bg-bgyellow hover:text-white"> <Link to='about/'>  ABOUT US  </Link> </button>
-                            <button className="px-4 py-4 hover:bg-bgyellow"> <Link to='about/'> ADOPT  </Link> </button>
-                            <button className="px-4 py-4 hover:bg-bgyellow"> <Link to='help/'> WAYS TO HELP </Link> </button>
-                            <button className="px-4 py-4 hover:bg-bgyellow"> <Link to='contat/'> CONTACT US </Link> </button>
-                            <button className="px-4 py-4 hover:bg-bgyellow"> <Link to='donate/'> DONATE  </Link> </button>
+                    <div className="text-bgyellow flex items-end right-4">
+                        <div className="flex flex-row text-lg font-sans font-bold" >
+                            <button className="px-4 py-2 mb-2 hover:bg-bgyellow hover:text-hoverwhite"> <Link to='about/'>  ABOUT US  </Link> </button>
+                            <button className="px-4 py-2 mb-2 hover:bg-bgyellow hover:text-hoverwhite"> <Link to='about/'> ADOPT  </Link> </button>
+                            {/* <button className="px-4 py-4 hover:bg-bgyellow hover:text-hoverwhite"> <Link to='help/'> WAYS TO HELP </Link> </button> */}
+                            <button className="px-4 py-2 mb-2 hover:bg-bgyellow hover:text-hoverwhite"> <Link to='contat/'> CONTACT US </Link> </button>
+                            <button className="px-4 py-2 mb-2 ml-4 bg-bgyellow text-hoverblack rounded-full hover:text-hoverwhite"> <Link to='donate/'> DONATE  </Link> </button>
                         </div>
                     </div>
                 </div>

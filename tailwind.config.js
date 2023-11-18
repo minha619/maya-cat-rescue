@@ -3,7 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     colors: {
-      'bgyellow': '#FAAF3B'
+      'bgyellow': '#FAAF3B',
+      'hoverwhite': '#FFFFFF',
+      'hoverblack': "#231F20"
     },
     extend: {},
   },
