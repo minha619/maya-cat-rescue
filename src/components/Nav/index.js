@@ -24,7 +24,6 @@ function Nav() {
                         <div className="flex flex-row text-lg font-sans font-bold" >
                             <button className="px-4 py-2 mb-2 hover:bg-bgyellow hover:text-hoverwhite"> <Link to='about/'>  ABOUT US  </Link> </button>
 
-
                             <Menu as="div" className="relative inline-block text-left">
                                 <Menu.Button className="px-4 py-2 mb-2 hover:bg-bgyellow hover:text-hoverwhite inline-flex">
                                     <Link to='adopt/'> ADOPT </Link>
@@ -47,6 +46,13 @@ function Nav() {
                                             </Menu.Item>
                                         </div>
                                     </Menu.Items>
+                                    {/* <Menu.Items className="absolute z-10 mt-2 w-56 origin-top-right bg-hoverwhite opacity-80 focus:outline-none text-center">
+                                        <div className="py-1">
+                                            <Menu.Item>
+                                                <Link to='application/'> Adopt Cats & Kittens </Link>
+                                            </Menu.Item>
+                                        </div>
+                                    </Menu.Items> */}
 
 
                                 </Transition>
