@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Adopt() {
 
     return (
@@ -17,7 +19,7 @@ function Adopt() {
                                 You must be at least 25 years old with current ID showing name, address & telephone number.
                                 If you are living with your parents, one of them must co-sign the final Adoption Agreement.
                             </p>
-                            <button className="rounded-full bg-hoverwhite text-bgyellow px-4 py-2 mt-6 float-left font-bold"> START APPLICATION </button>
+                            <button className="rounded-full bg-hoverwhite text-bgyellow px-4 py-2 mt-6 float-left font-bold"> <Link to="/application"> START APPLICATION </Link> </button>
                         </div>
 
                     </div>
