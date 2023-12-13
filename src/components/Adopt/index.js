@@ -7,10 +7,10 @@ function Adopt() {
             <div className="mt-2">
                 <div className="px-10 py-10 bg-bgyellow opacity-80 text-center font-sans">
                     <div className="flex">
-                        <div>
+                        <div className="w-5/12">
                             <img src={require(`../../assets/img/adopt-pic.jpg`)} alt="home-pic" />
                         </div>
-                        <div className="pl-6 pt-4">
+                        <div className="pl-6 pt-4 w-7/12">
                             <h1 className="font-bold text-2xl text-left"> Adopt </h1>
                             <p className="text-left pt-6">
                                 Thank you for considering a cat or kitten for adoption from Maya Cats and Kittens Rescue,Inc.
