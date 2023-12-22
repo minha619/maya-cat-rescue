@@ -16,17 +16,21 @@ import {
 function App() {
   return (
     <BrowserRouter>
-       <Nav>
-       </Nav>
-       <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="home/" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/adopt" element={<Adopt/>}/>
-          <Route path="/application" element={<Application/>}/>
-          <Route path="/adoptionlist" element={<Adopt/>}/>
-          <Route path="/contactus" element={<Contact/>}/>
-       </Routes>
+    <div className='h-screen flex flex-col'>
+        <Nav />
+        <div className='flex-1'>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="home/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/adopt" element={<Adopt/>}/>
+            <Route path="/application" element={<Application/>}/>
+            <Route path="/adoptionlist" element={<Adopt/>}/>
+            <Route path="/contactus" element={<Contact/>}/>
+          </Routes>
+        </div>
+    </div>
+      
     </BrowserRouter>
   );
 }
