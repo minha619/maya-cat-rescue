@@ -11,8 +11,8 @@ function Nav() {
             <nav>
                 <div className="flex flex-row justify-between">
                     <div className="p-4 w-[5em] min-w-[8em] h-[auto] lg:w-[10em]">
-                        <Link className="cursor-pointer" to='home/'> 
-                            <img className="w-40" src={require(`../../assets/img/maya-logo.png`)} alt="logo" /> 
+                        <Link className="cursor-pointer" to='home/'>
+                            <img className="w-40" src={require(`../../assets/img/maya-logo.png`)} alt="logo" />
                         </Link>
                     </div>
                     <div className="text-bgyellow flex items-end pr-4">
@@ -35,18 +35,18 @@ function Nav() {
                                     leaveFrom="transform opacity-100 scale-100"
                                     leaveTo="transform opacity-0 scale-95"
                                 >
-                
-                                    <Menu.Items className="absolute z-10 mt-2 w-56 origin-top-right bg-hoverwhite opacity-80 focus:outline-none text-center">
+
+                                    <Menu.Items className="absolute z-10 mt-2 w-56 origin-top-right bg-hoverwhite opacity-80 focus:outline-none text-center flex flex-col gap-3">
                                         <Menu.Item>
                                             <Link to='application'> Adoption Application </Link>
                                         </Menu.Item>
                                         <Menu.Item>
-                                            <Link to='app'> Adopt Cats & Kittens </Link>
+                                            <Link to='adoptionlist'> Adopt Cats & Kittens </Link>
                                         </Menu.Item>
                                     </Menu.Items>
 
                                 </Transition>
-                                
+
                             </Menu>
                             <button className="px-4 py-2 mb-2 hover:bg-bgyellow hover:text-hoverwhite"> <Link to='contactus/'> CONTACT US </Link> </button>
                             <button className="px-4 py-2 mb-2 ml-4 bg-bgyellow text-hoverblack rounded-full hover:text-hoverwhite"> <Link to='donate/'> DONATE  </Link> </button>

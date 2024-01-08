@@ -5,7 +5,7 @@ function Adopt() {
     return (
         <section className="h-full px-10 py-10 text-center font-sans relative">
             <div className="bg-bgyellow opacity-80 absolute inset-0 mt-2" />
-            <div className="flex  absolute inset-0 px-6 py-10">
+            <div className="flex absolute inset-0 px-6 py-10">
                 <div className="w-5/12">
                     <img src={require(`../../assets/img/adopt-pic.jpg`)} alt="home-pic" />
                 </div>
@@ -19,6 +19,7 @@ function Adopt() {
                         If you are living with your parents, one of them must co-sign the final Adoption Agreement.
                     </p>
                     <button className="rounded-full bg-hoverwhite text-bgyellow px-4 py-2 mt-6 float-left font-bold"> <Link to="/application"> START APPLICATION </Link> </button>
+                    <button className="rounded-full bg-hoverwhite text-bgyellow px-4 py-2 mt-6 ml-6 float-left font-bold"> <Link to="/adoptionlist"> Adoptable Cats & Kittens </Link> </button>
                 </div>
             </div>
         </section>
