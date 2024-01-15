@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/maya-cat-rescue/static/css/main.ff13150a.css",
+    "main.js": "/maya-cat-rescue/static/js/main.d96d9787.js",
+    "static/js/787.694020d7.chunk.js": "/maya-cat-rescue/static/js/787.694020d7.chunk.js",
+    "static/media/adopt-pic.jpg": "/maya-cat-rescue/static/media/adopt-pic.8a30cf74336a0aecf11b.jpg",
+    "static/media/home-pic.jpg": "/maya-cat-rescue/static/media/home-pic.246354e4641856befa1b.jpg",
+    "static/media/06.jpg": "/maya-cat-rescue/static/media/06.73acdbf6b48f3b13f720.jpg",
+    "static/media/08.jpg": "/maya-cat-rescue/static/media/08.bde2e24f50b7d576b5fa.jpg",
+    "static/media/07.jpg": "/maya-cat-rescue/static/media/07.9cc066501185eac41249.jpg",
+    "static/media/10.jpg": "/maya-cat-rescue/static/media/10.c7429fb089beeb92daa7.jpg",
+    "static/media/05.jpg": "/maya-cat-rescue/static/media/05.934d39caca7a69df9d49.jpg",
+    "static/media/01.jpg": "/maya-cat-rescue/static/media/01.84570975de0450726dc2.jpg",
+    "static/media/03.jpg": "/maya-cat-rescue/static/media/03.0e61ac93e9659f9f4c66.jpg",
+    "static/media/04.jpg": "/maya-cat-rescue/static/media/04.ce5193e0323fe8738841.jpg",
+    "static/media/02.jpg": "/maya-cat-rescue/static/media/02.d784f9756671f0feb291.jpg",
+    "static/media/09.jpg": "/maya-cat-rescue/static/media/09.fe3952619810f80e988f.jpg",
+    "static/media/11.jpg": "/maya-cat-rescue/static/media/11.6823c8e239cf2d745d48.jpg",
+    "static/media/maya-logo.png": "/maya-cat-rescue/static/media/maya-logo.6466a197ca7870f468db.png",
+    "index.html": "/maya-cat-rescue/index.html",
+    "main.ff13150a.css.map": "/maya-cat-rescue/static/css/main.ff13150a.css.map",
+    "main.d96d9787.js.map": "/maya-cat-rescue/static/js/main.d96d9787.js.map",
+    "787.694020d7.chunk.js.map": "/maya-cat-rescue/static/js/787.694020d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff13150a.css",
+    "static/js/main.d96d9787.js"
+  ]
+}
