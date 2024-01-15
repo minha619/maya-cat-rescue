@@ -2,8 +2,12 @@
 
 function Application() {
 
+    // const onClick = () => {
+    //     window.open('../../assets/Cat-Adoption-Application-Form.pdf');
+    // }
+
     const onClick = () => {
-        window.open('../../assets/Cat-Adoption-Application-Form.pdf');
+        window.open('https://drive.google.com/file/d/1BjkSVI0-yVSdh5M9iHio0oSKxlfIpiRT/view');
     }
 
     return (
