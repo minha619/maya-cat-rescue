@@ -23,7 +23,7 @@ function App() {
         <div className='flex-1'>
           <Routes>
             <Route path="maya-cat-rescue/" element={<Home />} />
-            <Route path="home/" element={<Home />} />
+            {/* <Route path="home/" element={<Home />} /> */}
             <Route path="/about" element={<About />} />
             <Route path="/adopt" element={<Adopt />} />
             <Route path="/application" element={<Application />} />
