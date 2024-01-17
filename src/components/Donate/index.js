@@ -7,9 +7,9 @@ function Donate() {
                 Founded in 2020, Maya Cats and Kittens Rescue,Inc. is a 501(c)(3) nonprofit organization.
             </p>
             <p>
-                Zelle ID: MAYA CATS AND KITTENS RESCUE, INC, SOYSSET, NY
-                <br />
-                Venmo ID: @alee03
+                <h1 className="font-bold">Zelle ID: </h1> MAYA CATS AND KITTENS RESCUE, INC, SOYSSET, NY
+                <br /><br />
+                <h1 className="font-bold">Venmo ID:</h1> @alee03
             </p>
         </section>
     )
