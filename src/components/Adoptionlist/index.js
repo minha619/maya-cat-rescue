@@ -47,9 +47,8 @@ function Adoptionlist() {
 
 
     return (
-        <section className="h-full px-10 py-10 text-center font-sans relative">
-            <div className=" bg-bgyellow opacity-80 absolute inset-0 mt-2"> </div>
-            {/* <h1 className="font-bold text-2xl justify-center"> Cats and Kittens </h1> */}
+        <section className="h-full mt-2 px-6 py-10 text-center font-sans relative">
+            <div className=" bg-bgyellow opacity-80 absolute inset-0 mt-2" />
             <div className="flex absolute inset-0 px-6 py-10 justify-center">
                 <div className="justify-center flex">
                     <ImageGallery items={images} />
