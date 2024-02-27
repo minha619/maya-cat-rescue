@@ -16,7 +16,8 @@ function Nav() {
                         </Link>
                     </div>
                     <div className="text-bgyellow flex items-end pr-4">
-                        <div className="flex flex-row text-lg font-sans font-bold" >
+                        <div className="absolute bg-hoverwhite" />
+                        <div className="flex text-lg font-sans font-bold xs:flex-row flex-col text-xs" >
                             <button className="px-4 py-2 mb-2 hover:bg-bgyellow hover:text-hoverwhite"> <Link to='about/'>  ABOUT US  </Link> </button>
 
                             <Menu as="div" className="relative inline-block text-left">
@@ -63,13 +64,3 @@ function Nav() {
 export default Nav;
 
 
-/* <ul className="flex flex-row text-lg font-sans font-bold " >
-    <li className="px-4 py-2.5"> <Link to='home/'> <button> HOME </button> </Link> </li>
-    <li className="px-4 py-2.5"> <Link to='about/'> <button className="bg-sky-500 hover:sky-500"> ABOUT US </button>  </Link> </li>
-    <li className="px-4 py-2.5"> <Link to='about/'> <button> ADOPT </button> </Link> </li>
-    <li className="px-4 py-2.5"> <Link to='help/'> <button> WAYS TO HELP </button> </Link> </li>
-    <li className="px-4 py-2.5"> <Link to='contat/'> <button> CONTACT US </button> </Link> </li>
-    <li className="px-4 py-2.5"> <Link to='donate/'> <button> DONATE </button> </Link> </li>
-</ul> */
-
-// <button className="px-4 py-2.5 hover:bg-bgyellow hover:text-white"> <Link to='home/'> HOME </Link> </button>

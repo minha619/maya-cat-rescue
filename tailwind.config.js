@@ -7,7 +7,13 @@ module.exports = {
       'hoverwhite': '#FFFFFF',
       'hoverblack': "#231F20"
     },
+
     extend: {},
+
+    screens: {
+      'xs': '390px',
+
+    },
   },
   plugins: [require('@tailwindcss/forms')],
 }

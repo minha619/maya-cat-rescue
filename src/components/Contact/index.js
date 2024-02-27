@@ -3,26 +3,26 @@ function Contact() {
 
     return (
         <section className="h-full mt-2 px-6 py-10  text-center font-sans overflow-auto relative" >
-            <div className="bg-bgyellow opacity-80 absolute inset-0 mt-2" />
-            <div className="absolute inset-0 px-6 py-10 justify-center">
+            <div className=" bg-bgyellow opacity-80 absolute inset-0 mt-2" />
+            <div className="absolute inset-0 px-6 py-10 justify-center xs:py-8">
                 <div>
-                    <h1 className="font-bold text-2xl"> CONTACT US </h1>
+                    <h1 className="font-bold text-2xl xs:text-lg"> CONTACT US </h1>
                     <div className="isolate bg-white px-6 py-4 lg:px-8">
                         <div className="mx-auto max-w-2xl text-center">
-                            <p className="mt-2 text-lg text-gray-600">
+                            <p className="mt-2 text-lg text-gray-600 xs:text-sm">
                                 Please allow us some time to get back to you.
                             </p>
-                            <p className="mt-2 text-lg text-gray-600">
+                            <p className="mt-2 text-lg text-gray-600 xs:text-sm">
                                 email: mayacatsrescue@gmail.com
                             </p>
                         </div>
-                        <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+                        <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-10 xs:mt-6">
                             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                                 <div>
                                     <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
                                         First name
                                     </label>
-                                    <div className="mt-2.5">
+                                    <div className="mt-2.5 xs:mt-0">
                                         <input
                                             type="text"
                                             name="first-name"
@@ -36,7 +36,7 @@ function Contact() {
                                     <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-900">
                                         Last name
                                     </label>
-                                    <div className="mt-2.5">
+                                    <div className="mt-2.5 xs:mt-0">
                                         <input
                                             type="text"
                                             name="last-name"
@@ -51,7 +51,7 @@ function Contact() {
                                     <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
                                         Email
                                     </label>
-                                    <div className="mt-2.5">
+                                    <div className="mt-2.5 xs:mt-0">
                                         <input
                                             type="email"
                                             name="email"
@@ -65,7 +65,7 @@ function Contact() {
                                     <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
                                         Phone number
                                     </label>
-                                    <div className="mt-2.5">
+                                    <div className="mt-2.5 xs:mt-0">
                                         <input
                                             type="tel"
                                             name="phone-number"
@@ -78,7 +78,7 @@ function Contact() {
                                     <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
                                         Message
                                     </label>
-                                    <div className="mt-2.5">
+                                    <div className="mt-2.5 xs:mt-0">
                                         <textarea
                                             name="message"
                                             id="message"
@@ -89,7 +89,7 @@ function Contact() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="mt-10">
+                            <div className="mt-10 xs:mt-6">
                                 <button
                                     type="submit" className=" px-3.5 py-2.5 text-center text-sm font-semibold bg-hoverwhite" >
                                     SUBMIT
