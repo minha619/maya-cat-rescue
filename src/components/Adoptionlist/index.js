@@ -50,7 +50,7 @@ function Adoptionlist() {
         <section className="h-full mt-2 px-6 py-10 text-center font-sans relative">
             <div className=" bg-bgyellow opacity-80 absolute inset-0 mt-2" />
             <div className="flex absolute inset-0 px-6 py-10 justify-center">
-                <div className="justify-center flex">
+                <div className="justify-center flex w-screen">
                     <ImageGallery items={images} />
                 </div>
             </div>
