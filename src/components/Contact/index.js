@@ -4,7 +4,7 @@ function Contact() {
     return (
 
         <section className="h-full mt-2 px-6 py-10  text-center font-sans overflow-auto relative" >
-            <div className=" bg-bgyellow opacity-80 absolute inset-0 mt-2" />
+            <div className=" bg-bgyellow opacity-80 absolute inset-0" />
             <div className="absolute inset-0 px-6 py-8 mt-2 justify-center overflow-auto">
                 <div>
                     <h1 className="font-bold text-lg md:text-xl lg:text-2xl "> CONTACT US </h1>
