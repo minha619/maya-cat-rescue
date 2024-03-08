@@ -11,17 +11,17 @@ function Nav() {
     return (
         <header className="flex-initial">
             <nav>
-                <div className="flex justify-between">
-                    <div className="p-4 w-[5em] min-w-[8em] h-[auto] lg:w-[10em]">
+                <div className="flex justify-between w-full h-full">
+                    <div className="p-4 w-[5em] min-w-[8em] h-[auto] lg:w-[10em] flex-initial">
                         <Link className="cursor-pointer" to='home/'>
-                            <img className="w-40" src={require(`../../assets/img/maya-logo.png`)} alt="logo" />
+                            <img className="w-full" src={require(`../../assets/img/maya-logo.png`)} alt="logo" />
                         </Link>
                     </div>
-                    <div className="text-bgyellow sm:items-end static pr-4 flex justify-end flex-col">
-                        <div onClick={() => setOpen(!open)} className="cursor-pointer md:hidden">
+                    <div className="text-bgyellow flex items-end justify-end flex-col relative flex-1 p-2">
+                        <div onClick={() => setOpen(!open)} className="cursor-pointer sm:hidden">
                             <ion-icon name={open ? 'close' : 'menu'} ></ion-icon>
                         </div>
-                        <div className="`{flex font-sans font-bold text-xs flex-col sm:flex-row md:text-sm lg:text-lg ${open ? }`}" >
+                        <div className={`flex font-sans font-bold text-xs flex-col justify-center sm:flex-row  absolute top-[100%] z-50 mt-2 bg-hoverwhite opacity-80 md:text-sm lg:text-lg ${open ? '' : 'hidden'}`}>
                             <button className="px-4 py-2 mb-2 hover:bg-bgyellow hover:text-hoverwhite"> <Link to='about/'>  ABOUT US  </Link> </button>
 
                             <Menu as="div" className="relative ">

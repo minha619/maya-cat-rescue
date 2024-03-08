@@ -6,7 +6,7 @@ function About() {
             <div className=" bg-bgyellow opacity-80 absolute inset-0 mt-2" />
             <div className="flex flex-col text-center absolute inset-0 px-6 py-8 mt-2 overflow-auto">
                 <h1 className="font-bold text-lg md:text-xl lg:text-2xl "> About Maya Cats and Kittens Rescue </h1>
-                <p className="px-12 py-10 md:text-base px-32">
+                <p className="px-12 py-10 md:text-base ">
                     Founded in 2020, Maya Cats and Kittens Rescue,Inc. is a 501(c)(3) nonprofit organization
                     committed to saving cats and kittens from Queens and Long Island, NY.
                     We try to find each of its animals a fmily and place them in the most appropriate home.
