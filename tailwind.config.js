@@ -5,13 +5,16 @@ module.exports = {
     colors: {
       'bgyellow': '#FAAF3B',
       'hoverwhite': '#FFFFFF',
-      'hoverblack': "#231F20"
+      'hoverblack': "#231F20",
+      'bgy': '#f4c176'
     },
 
     extend: {},
 
     screens: {
       'xs': '360px',
+
+      'ssm': '639px',
 
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

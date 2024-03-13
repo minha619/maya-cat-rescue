@@ -17,10 +17,11 @@ function Nav() {
                         <img className="w-full" src={require(`../../assets/img/maya-logo.png`)} alt="logo" />
                     </Link>
                 </div>
-                {/* <div>
-                    <ion-icon name="menu"></ion-icon>
-                </div> */}
-                <ul className="my-0 my-2 text-xs pb-0 pb-2 w-full absolute bg-hoverwhite sm:flex items-center sm:static w-auto z-auto  md:text-base lg:tex">
+                <div onClick={() => setOpen(!open)}
+                    className="text-2xl absolute right-4 top-16 cursor-pointer sm:hidden">
+                    <ion-icon name={open ? 'close' : 'menu'} ></ion-icon>
+                </div>
+                <ul className={`my-0 my-2 text-xs pb-0 pb-2 absolute bg-hoverwhite sm:flex items-center sm:static bg-hoverwhite w-auto z-50  md:text-base lg:tex ${open ? '' : 'hidden'} `}>
                     {/* About us tab */}
                     <li>
                         <button className="px-4 py-2 mb-2 hover:bg-bgyellow hover:text-hoverwhite">
