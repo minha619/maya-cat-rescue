@@ -21,7 +21,7 @@ function Nav() {
                     className="text-2xl absolute right-4 top-16 cursor-pointer sm:hidden">
                     <ion-icon name={open ? 'close' : 'menu'} ></ion-icon>
                 </div>
-                <ul className={`my-0 my-2 text-xs pb-0 pb-2 absolute bg-hoverwhite sm:flex items-center sm:static bg-hoverwhite w-auto z-50  md:text-base lg:tex ${open ? '' : 'hidden'} `}>
+                <ul className={`my-0 my-2 text-xs pb-0 absolute bg-hoverwhite sm:flex items-center sm:static bg-hoverwhite w-auto z-50  md:text-base lg:tex ${open ? '' : 'hidden'} `}>
                     {/* About us tab */}
                     <li>
                         <button className="px-4 py-2 mb-2 hover:bg-bgyellow hover:text-hoverwhite">
