@@ -13,7 +13,7 @@ function About() {
                     We are an all-volunteer, non-profit rescue group.
                 </p>
                 <div className="flex justify-center">
-                    <div className="w-5/12 ">
+                    <div className="w-7/12 ">
                         <img src={require(`../../assets/img/11.jpg`)} alt="kittens" />
                     </div>
                 </div>
