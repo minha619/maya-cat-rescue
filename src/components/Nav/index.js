@@ -43,7 +43,7 @@ function Nav() {
                                 leave="transition ease-in duration-75"
                                 leaveFrom="transform opacity-100 scale-100"
                                 leaveTo="transform opacity-0 scale-95">
-                                <Menu.Items className="absolute z-10 w-56 origin-top-right bg-hoverwhite opacity-90 focus:outline-none text-center flex flex-col gap-2 py-1.5 xs:w-40 xs:right-24">
+                                <Menu.Items className="absolute z-10 w-56 origin-top-right bg-hoverwhite opacity-90 focus:outline-none text-center flex flex-col gap-2 py-1.5 xs:right-24 sm:right-0">
                                     <Menu.Item>
                                         {/* Application tab */}
                                         <Link to='application'> Adoption Application </Link>
