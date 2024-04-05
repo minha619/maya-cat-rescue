@@ -13,7 +13,8 @@ function Donate() {
                         Zelle:
                     </h1>
                     516-650-9462 <br />
-                    MAYA CATS AND KITTENS RESCUE, INC, SOYSSET, NY <br /><br />
+                    MAYA CATS AND KITTENS RESCUE, INC, HUNTINGTON, NY <br /><br/>
+                    
 
                     <h1 className="font-bold">Venmo:</h1> @Misook380
                 </p>
