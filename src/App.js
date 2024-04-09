@@ -10,20 +10,19 @@ import Contact from './components/Contact';
 import Donate from './components/Donate';
 
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route
 } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className='h-screen flex flex-col'>
         <Nav />
         <div className='flex-1'>
           <Routes>
-            <Route path="maya-cat-rescue/" element={<Home />} />
-            <Route path="home/" element={<Home />} />
+            <Route path="/" index element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/adopt" element={<Adopt />} />
             <Route path="/application" element={<Application />} />
@@ -34,7 +33,7 @@ function App() {
         </div>
       </div>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

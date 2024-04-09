@@ -10,7 +10,7 @@ import Pic7 from '../../assets/img/07.jpg';
 import Pic8 from '../../assets/img/08.jpg';
 import Pic9 from '../../assets/img/09.jpg';
 import Pic10 from '../../assets/img/10.jpg';
-// import Pic11 from '../../assets/img/11.jpg';
+import Pic11 from '../../assets/img/11.jpg';
 // import Pic12 from '../../assets/img/12.jpg';
 // import Pic13 from '../../assets/img/13.jpg';
 // import Pic14 from '../../assets/img/14.jpg';
@@ -31,7 +31,7 @@ const images = [
     { original: Pic8, thumbnail: Pic8 },
     { original: Pic9, thumbnail: Pic9 },
     { original: Pic10, thumbnail: Pic10 },
-    // { original: Pic11, thumbnail: Pic11 },
+    { original: Pic11, thumbnail: Pic11 },
     // { original: Pic12, thumbnail: Pic12 },
     // { original: Pic13, thumbnail: Pic13 },
     // { original: Pic14, thumbnail: Pic14 },
