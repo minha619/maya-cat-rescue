@@ -13,7 +13,7 @@ function Nav() {
             {/* Logo */}
             <div className="text-bgyellow font-sans font-bold bg-white sm:flex justify-between pr-4 items-end">
                 <div className="p-4 w-[5em] min-w-[8em] h-[auto] lg:w-[10em]">
-                    <Link className="cursor-pointer" to='home/'>
+                    <Link className="cursor-pointer" to='/'>
                         <img className="w-full" src={require(`../../assets/img/maya-logo.png`)} alt="logo" />
                     </Link>
                 </div>
