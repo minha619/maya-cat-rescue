@@ -11,11 +11,11 @@ import Pic8 from '../../assets/img/08.jpg';
 import Pic9 from '../../assets/img/09.jpg';
 import Pic10 from '../../assets/img/10.jpg';
 import Pic11 from '../../assets/img/11.jpg';
-// import Pic12 from '../../assets/img/12.jpg';
-// import Pic13 from '../../assets/img/13.jpg';
-// import Pic14 from '../../assets/img/14.jpg';
-// import Pic15 from '../../assets/img/15.jpg';
-// import Pic16 from '../../assets/img/16.jpg';
+import Pic12 from '../../assets/img/12.jpg';
+import Pic13 from '../../assets/img/13.jpg';
+import Pic14 from '../../assets/img/14.jpg';
+import Pic15 from '../../assets/img/15.jpg';
+import Pic16 from '../../assets/img/16.jpg';
 // import Pic17 from '../../assets/img/17.jpg';
 // import Pic18 from '../../assets/img/18.jpg';
 // import Pic19 from '../../assets/img/19.jpg';
@@ -32,11 +32,11 @@ const images = [
     { original: Pic9, thumbnail: Pic9 },
     { original: Pic10, thumbnail: Pic10 },
     { original: Pic11, thumbnail: Pic11 },
-    // { original: Pic12, thumbnail: Pic12 },
-    // { original: Pic13, thumbnail: Pic13 },
-    // { original: Pic14, thumbnail: Pic14 },
-    // { original: Pic15, thumbnail: Pic15 },
-    // { original: Pic16, thumbnail: Pic16 },
+    { original: Pic12, thumbnail: Pic12 },
+    { original: Pic13, thumbnail: Pic13 },
+    { original: Pic14, thumbnail: Pic14 },
+    { original: Pic15, thumbnail: Pic15 },
+    { original: Pic16, thumbnail: Pic16 },
     // { original: Pic17, thumbnail: Pic17 },
     // { original: Pic18, thumbnail: Pic18 },
     // { original: Pic19, thumbnail: Pic19 },
