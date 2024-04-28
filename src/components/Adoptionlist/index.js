@@ -19,7 +19,7 @@ import Pic16 from '../../assets/img/16.jpg';
 import Pic17 from '../../assets/img/17.jpg';
 import Pic18 from '../../assets/img/18.jpg';
 import Pic19 from '../../assets/img/19.jpg';
-import Pic19 from '../../assets/img/20.jpg';
+import Pic20 from '../../assets/img/20.jpg';
 
 const images = [
     { original: Pic1, thumbnail: Pic1 },
