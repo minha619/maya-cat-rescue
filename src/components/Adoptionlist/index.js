@@ -16,9 +16,10 @@ import Pic13 from '../../assets/img/13.jpg';
 import Pic14 from '../../assets/img/14.jpg';
 import Pic15 from '../../assets/img/15.jpg';
 import Pic16 from '../../assets/img/16.jpg';
-// import Pic17 from '../../assets/img/17.jpg';
-// import Pic18 from '../../assets/img/18.jpg';
-// import Pic19 from '../../assets/img/19.jpg';
+import Pic17 from '../../assets/img/17.jpg';
+import Pic18 from '../../assets/img/18.jpg';
+import Pic19 from '../../assets/img/19.jpg';
+import Pic19 from '../../assets/img/20.jpg';
 
 const images = [
     { original: Pic1, thumbnail: Pic1 },
@@ -37,9 +38,10 @@ const images = [
     { original: Pic14, thumbnail: Pic14 },
     { original: Pic15, thumbnail: Pic15 },
     { original: Pic16, thumbnail: Pic16 },
-    // { original: Pic17, thumbnail: Pic17 },
-    // { original: Pic18, thumbnail: Pic18 },
-    // { original: Pic19, thumbnail: Pic19 },
+    { original: Pic17, thumbnail: Pic17 },
+    { original: Pic18, thumbnail: Pic18 },
+    { original: Pic19, thumbnail: Pic19 },
+    { original: Pic17, thumbnail: Pic20 },
 ];
 
 
