@@ -41,7 +41,7 @@ const images = [
     { original: Pic17, thumbnail: Pic17 },
     { original: Pic18, thumbnail: Pic18 },
     { original: Pic19, thumbnail: Pic19 },
-    { original: Pic17, thumbnail: Pic20 },
+    { original: Pic20, thumbnail: Pic20 },
 ];
 
 
